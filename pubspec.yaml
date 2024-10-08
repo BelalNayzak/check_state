@@ -1,7 +1,7 @@
 name: check_state
 description: "Say goodbye to boilerplate code of state checks that makes the widget tree dirty and say Hi to `check_state`!
 `check_state` is a lightweight Flutter package that simplifies managing and displaying different states in your widgets. It allows you to handle loading, error, and success states effortlessly by wrapping your widgets and providing default or custom widgets for error and loader states."
-version: 0.0.2
+version: 0.0.3
 homepage: "https://my-website-portfolio-8b4cb.web.app/"
 
 environment:
