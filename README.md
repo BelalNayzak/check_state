@@ -1,5 +1,6 @@
-# CheckState Widget
+# CheckState
 
+Say goodbye to boilerplate code of state checks that makes the widget tree dirty and say Hi to `check_state`!
 `check_state` is a lightweight Flutter package that simplifies managing and displaying different states in your widgets. It allows you to handle loading, error, and success states effortlessly by wrapping your widgets and providing default or custom widgets for error and loader states.
 
 ## Features
@@ -7,6 +8,7 @@
 - **State Management Simplified**: Easily switch between loading, error, and success states.
 - **Default Widgets**: Set default error and loader widgets at the start of your app and override them when necessary.
 - **Customizable**: Pass custom widgets for specific states as needed.
+- **Clean Widget Tree**: No dirty state checks to handle the widgets tree anymore.
 
 ## Getting Started
 
@@ -63,4 +65,28 @@ class MyApp extends StatelessWidget {
 
 ## Contributing
 
-Contributions are welcome! Feel free to open issues or submit pull requests on the [GitHub repository](https://github.com/GIfatah/check_state).
+Contributions are welcome! Feel free to open issues or submit pull requests on the [GitHub repository](https://github.com/BelalNayzak/check_state).
+
+## License
+
+MIT License
+
+Copyright (c) 2024 BelalNayzak
+
+Permission is hereby granted, free of charge, to any person obtaining a copy
+of this software and associated documentation files (the "Software"), to deal
+in the Software without restriction, including without limitation the rights
+to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
+copies of the Software, and to permit persons to whom the Software is
+furnished to do so, subject to the following conditions:
+
+The above copyright notice and this permission notice shall be included in
+all copies or substantial portions of the Software.
+
+THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
+IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
+FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
+AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
+LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
+OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN
+THE SOFTWARE.
