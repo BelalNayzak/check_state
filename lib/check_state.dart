@@ -13,7 +13,7 @@ class CheckState extends StatelessWidget {
   final bool? isError;
   final bool? isLoading;
   final Widget? customErrWidget;
-  final Widget? successWidget;
+  final Widget? child;
   final Widget? customLoaderWidget;
   final bool? canRetry;
   final void Function()? onClickRetry;
@@ -22,7 +22,7 @@ class CheckState extends StatelessWidget {
     super.key,
     required this.isError,
     required this.isLoading,
-    required this.successWidget,
+    required this.child,
     this.customErrWidget,
     this.customLoaderWidget,
     this.canRetry,
@@ -60,7 +60,7 @@ class CheckState extends StatelessWidget {
         ],
       );
     } else {
-      return successWidget ?? const SizedBox(); // Ensure a non-null widget for success
+      return child ?? const SizedBox(); // Ensure a non-null widget for success
     }
   }
 }
