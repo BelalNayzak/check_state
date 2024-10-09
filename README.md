@@ -1,4 +1,4 @@
-![Header Image](https://github.com/BelalNayzak/check_state/assets/check_state.png)
+![Header Image](https://github.com/BelalNayzak/check_state/blob/main/assets/check_state.png)
 
 # CheckState
 
