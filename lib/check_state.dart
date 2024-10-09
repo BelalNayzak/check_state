@@ -40,7 +40,7 @@ class CheckState extends StatelessWidget {
   }
 
   // Method to set default widgets
-  static void setDefaultWidgets({required Widget errWidget, required Widget loaderWidget}) {
+  static void setDefaultWidgets({Widget errWidget, Widget loaderWidget}) {
     defaultErrWidget = errWidget;
     defaultLoaderWidget = loaderWidget;
   }
