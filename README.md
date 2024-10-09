@@ -1,3 +1,5 @@
+![Header Image](https://github.com/BelalNayzak/check_state/assets/check_state.png)
+
 # CheckState
 
 Say goodbye to boilerplate code of state checks that makes the widget tree dirty and say Hi to `check_state`!
