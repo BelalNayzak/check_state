@@ -1,4 +1,8 @@
-![Header Image](https://github.com/BelalNayzak/check_state/blob/main/assets/check_state.png)
+<p align="center">
+  <img src="https://github.com/BelalNayzak/check_state/blob/check_state/assets/check_state.png" alt="Check State Logo" width="200">
+</p>
+
+---
 
 # CheckState
 
