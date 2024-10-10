@@ -8,10 +8,11 @@ Say goodbye to boilerplate code of state checks that makes the widget tree dirty
 
 ## Features
 
-- **State Management Simplified**: Easily switch between loading, error, and success states.
+- **State Management Simplified**: Easily switch between loading, error, and success states' widgets.
 - **Default Widgets**: Set default error and loader widgets at the start of your app and override them when necessary.
 - **Customizable**: Pass custom widgets for specific states as needed.
 - **Clean Widget Tree**: No dirty state checks to handle the widgets tree anymore.
+- **Retry Mechanism**: If you get error state, you can call a retry method.
 
 ## Getting Started
 
