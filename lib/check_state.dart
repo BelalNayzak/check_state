@@ -7,8 +7,8 @@ part 'default_loader.dart';
 part 'default_err.dart';
 
 class CheckState extends StatelessWidget {
-  static Widget? defaultErrWidget;
-  static Widget? defaultLoaderWidget;
+  static Widget defaultErrWidget;
+  static Widget defaultLoaderWidget;
 
   final bool? isError;
   final bool? isLoading;
@@ -41,7 +41,7 @@ class CheckState extends StatelessWidget {
   }
 
   // Method to set default widgets
-  static void setDefaultWidgets({Widget errWidget, Widget loaderWidget}) {
+  static void setDefaultWidgets({required Widget errWidget, required Widget loaderWidget}) {
     defaultErrWidget = errWidget;
     defaultLoaderWidget = loaderWidget;
   }
