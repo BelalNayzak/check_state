@@ -7,8 +7,8 @@ part 'default_loader.dart';
 part 'default_err.dart';
 
 class CheckState extends StatelessWidget {
-  static Widget defaultErrWidget;
-  static Widget defaultLoaderWidget;
+  static late Widget defaultErrWidget;
+  static late Widget defaultLoaderWidget;
 
   final bool? isError;
   final bool? isLoading;
