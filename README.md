@@ -46,7 +46,7 @@ class MyApp extends StatelessWidget {
     return Scaffold(
       body: CheckState(
         isLoading: true,  // Set the current state (e.g., loading)
-        successWidget: Center(child: Text('Data Loaded Successfully')),
+        child: Center(child: Text('Data Loaded Successfully')),
         // optional:
         // Provide custom error and loader widgets if you don't want to use the default ones you set in main.dart
         // errorWidget: Center(child: Text('Oops! Something went wrong')),
