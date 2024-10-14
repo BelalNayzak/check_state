@@ -5,6 +5,6 @@ class DefaultLoader extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
-    return const Material(child: Center(child: CupertinoActivityIndicator()));
+    return const Center(child: CupertinoActivityIndicator());
   }
 }
