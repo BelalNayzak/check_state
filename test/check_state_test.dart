@@ -1,8 +1,6 @@
-import 'package:flutter/cupertino.dart';
+import 'package:check_state/check_state.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter_test/flutter_test.dart';
-
-import 'package:check_state/check_state.dart';
 
 void main() {
   // test('adds one to input values', () {
@@ -16,7 +14,7 @@ void main() {
       CheckState(
         isError: true,
         isLoading: false,
-        successWidget: const Text('data'),
+        child: const Text('data'),
       ),
     );
     expect(find.byType(DefaultErr), findsOneWidget);
@@ -27,7 +25,7 @@ void main() {
       CheckState(
         isError: false,
         isLoading: true,
-        successWidget: SizedBox(),
+        child: SizedBox(),
       ),
     );
     expect(find.byType(DefaultLoader), findsOneWidget);
@@ -38,7 +36,7 @@ void main() {
       CheckState(
         isError: true,
         isLoading: false,
-        successWidget: SizedBox(),
+        child: SizedBox(),
         customErrWidget: Icon(Icons.error),
       ),
     );
@@ -50,7 +48,7 @@ void main() {
       CheckState(
         isError: false,
         isLoading: true,
-        successWidget: SizedBox(),
+        child: SizedBox(),
         customLoaderWidget: Icon(Icons.refresh),
       ),
     );
@@ -62,7 +60,7 @@ void main() {
       CheckState(
         isError: false,
         isLoading: false,
-        successWidget: Icon(Icons.check),
+        child: Icon(Icons.check),
       ),
     );
     expect(find.byIcon(Icons.check), findsOneWidget);
@@ -73,7 +71,7 @@ void main() {
       CheckState(
         isError: true,
         isLoading: false,
-        successWidget: const Icon(Icons.check),
+        child: const Icon(Icons.check),
         canRetry: true,
         onClickRetry: () {
           print('Retrying');
@@ -89,7 +87,7 @@ void main() {
       CheckState(
         isError: true,
         isLoading: false,
-        successWidget: const Icon(Icons.check),
+        child: const Icon(Icons.check),
         canRetry: true,
         onClickRetry: () {
           wasCalled = true;

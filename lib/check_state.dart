@@ -6,6 +6,9 @@ import 'package:flutter/material.dart';
 part 'default_loader.dart';
 part 'default_err.dart';
 
+/// Best resource to learn how to create a package and publish it
+/// https://www.youtube.com/watch?v=ZABb7PTkT58
+
 class CheckState extends StatelessWidget {
   static late Widget defaultErrWidget;
   static late Widget defaultLoaderWidget;
