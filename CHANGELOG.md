@@ -5,5 +5,3 @@
 ## 0.0.6+5
 
 * enhancements and fixes.
-y
-* 
