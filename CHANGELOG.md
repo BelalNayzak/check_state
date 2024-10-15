@@ -1,6 +1,6 @@
 # CHANGELOG
 
-## 0.0.6+5
+## 0.0.6+6
 
 ### Enhancements:
 - Improved widget management.
