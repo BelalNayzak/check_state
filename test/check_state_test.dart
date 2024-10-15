@@ -1,8 +1,6 @@
-import 'package:flutter/cupertino.dart';
+import 'package:check_state/check_state.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter_test/flutter_test.dart';
-
-import 'package:check_state/check_state.dart';
 
 void main() {
   // test('adds one to input values', () {

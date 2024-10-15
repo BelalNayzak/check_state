@@ -58,7 +58,7 @@ class CheckState extends StatelessWidget {
         mainAxisAlignment: MainAxisAlignment.center,
         crossAxisAlignment: CrossAxisAlignment.center,
         children: [
-          customErrWidget ?? defaultErrWidget!, // Use custom or default error widget
+          customErrWidget ?? defaultErrWidget, // Use custom or default error widget
           if (canRetry ?? false) IconButton(onPressed: onClickRetry, icon: const Icon(Icons.refresh)),
         ],
       );
