@@ -37,10 +37,7 @@ class CheckState extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
-    return MaterialApp(
-      debugShowCheckedModeBanner: false,
-      home: _getHome(),
-    );
+    return _getHome();
   }
 
   // Method to set default widgets
